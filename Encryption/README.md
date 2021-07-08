@@ -2,7 +2,7 @@
 
 This simple code encrypts using the Caesar method but with a twist. A keyword is inserted and used as the number that switches the letters in your message. 
 
-It also decodes so that whoever you re contacting can decrypt it asa long as they know the keyword and use my code.
+It also decodes so that whoever you are contacting can decrypt it as long as they know the keyword and use my code.
 
 
 ## Example:
