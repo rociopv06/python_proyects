@@ -32,4 +32,6 @@ If the computer loses the value of the option that it lost with increases (this 
 
 ## UPDATE V1.1
 
-Made it so you cn play various rounds and choose the point difference you play to
+Made it so you can:
+* play various rounds 
+* choose the point difference you play to
