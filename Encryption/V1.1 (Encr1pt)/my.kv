@@ -1,0 +1,53 @@
+
+
+<Button>:
+    font_size: 30
+
+<Label>:
+    font_size: 30
+    background_color:(0,0.63,0.76,1)
+    size_hint: 0.5  ,0.10
+<TextInput>:
+    font_size: 30
+    color: 0.1,0.5,0.6,1
+    size_hint: 0.5,0.10
+
+<FloatLayout>:
+    key:key
+    input:input
+    canvas.before:
+        Color:
+            rgba: 0/255.0, 63/255.0, 76/255.0, 1
+        Rectangle:
+            size: self.size
+            pos: self.pos
+    
+
+    Label:
+        pos_hint:{"y":0.85,"x":0.37}
+        text:"Key"
+    TextInput: 
+        id:key
+        pos_hint:{"y":0.75,"x":0.25}
+    Label:
+        pos_hint:{"y":0.65,"x":0.37}
+        text:"Input"
+    TextInput: 
+        pos_hint:{"y":0.55,"x":0.25}
+        id:input
+
+    Button:
+        size_hint: 0.6,0.15
+        text: "Encode"
+        on_press: root.pressed()
+        pos_hint:{"y":0.30,"x":0.20}
+        background_color:(1.15,2.24,2.09,1)
+
+    Button:
+        size_hint: 0.6,0.15
+        text:"Decode"
+        on_press: root.pressedd()
+
+        pos_hint:{"y":0.12,"x":0.20}
+        background_color:(1.15,2.24,2.09,1)   
+      
