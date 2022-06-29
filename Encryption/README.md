@@ -17,7 +17,7 @@ Encryption: Y{?1~$)w!,2)"2"vw)1-$(3
 My Value is just the ASCII value minus 32. 
 
 I do this to try and minimize the amount of times a value overlaps my frame (32-126)
-| Original | ASCII |
+| Original | My Value |
 | ------------- | ------------- |
 |'1' | 17|
 | '2' | 18  |
